@@ -1,0 +1,16 @@
+#### 포트번호바꾸기 ####
+
+from flask import Flask 
+app = Flask(__name__)
+
+@app.route('/')
+def hello_worle():
+    return "print flask"
+
+if __name__ == '__main__'
+    app.run(port=9999)
+---------------------------------------------
+
+
+
+
