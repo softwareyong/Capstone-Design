@@ -60,7 +60,7 @@ flask에서 url을 처리하는 방법으로 URL 디스패치라고 함.
 flask에서 가장 간단한 routing방법은 route데코레이터를 사용하는 것
 - 데코레이터를 통해 "뷰 함수"의 동작을 다른 형태로 수정하여 올바른 길로 안내(routing)해 줌.
 
-/---
-System flow
+# System flow
+# ---
 ![image](https://user-images.githubusercontent.com/95459741/236448976-7e4114fc-41d0-441c-ad70-0887a09ffd33.png)
 
