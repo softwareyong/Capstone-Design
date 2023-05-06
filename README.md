@@ -44,9 +44,11 @@
 # 4. 로봇 version 업데이트
  <details>
   <summary>로봇 ver1</summary>
-    ![image](https://user-images.githubusercontent.com/95459741/236625165-fbd39614-6b15-4629-8409-27608193409a.png)
-  <summary> <지면을 수직으로 바라보게 함> </summary>
   
+    ![image](https://user-images.githubusercontent.com/95459741/236625165-fbd39614-6b15-4629-8409-27608193409a.png)
+  
+  
+  <summary> <지면을 수직으로 바라보게 함> </summary>
   
 </details>
   
@@ -57,14 +59,17 @@
    
    
     <summary> <지면 수직 + 자체 높이 증가> </summary>
+      
 </details>
 
  <details>
   <summary>로봇 ver3</summary>
+   
     ![image](https://user-images.githubusercontent.com/95459741/236625410-4df6a50f-99f4-4bf0-9613-bcc0d5feaf17.png)
     
     
   <summary> < qr코드크기 최적화에 따른 자체 높이 다시 감소> </summary>
+    
 </details>
 
  <details>
