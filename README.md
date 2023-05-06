@@ -37,7 +37,7 @@
 </details>
 
 <details>
-  <summary>로봇</summary>
+  <summary>최종 로봇</summary>
   
  </details>
  
@@ -57,14 +57,14 @@
 ![image](https://user-images.githubusercontent.com/95459741/236625188-d5d1ca8d-14af-4c1b-8eeb-bccf3c209ce4.png)
    
    
-    <summary> <지면 수직 + 자체 높이 증가> </summary>
+    <summary>지면 수직 + 자체 높이 증가</summary>
       
 </details>
 
  <details>
   <summary>로봇 ver3</summary>
    
-    ![image](https://user-images.githubusercontent.com/95459741/236625410-4df6a50f-99f4-4bf0-9613-bcc0d5feaf17.png)
+![KakaoTalk_20230506_215340564](https://user-images.githubusercontent.com/95459741/236626614-c25c9d8e-71f9-45dc-8ec8-5f367f826174.jpg)
     
     
   <summary> < qr코드크기 최적화에 따른 자체 높이 다시 감소> </summary>
