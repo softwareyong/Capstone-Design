@@ -28,8 +28,9 @@
 <details>
   <summary>실제 map</summary>
   
-![image](https://user-images.githubusercontent.com/95459741/236624876-0df6cf14-6d90-4a0e-b884-47110538b78e.png)
-  
+![KakaoTalk_20230506_214425609](https://user-images.githubusercontent.com/95459741/236626064-6fc66a95-2664-4801-8a64-a7615631d049.jpg)
+
+
 </details>
 
 <details>
@@ -42,6 +43,8 @@
   <summary>로봇 ver1</summary>
     ![image](https://user-images.githubusercontent.com/95459741/236625165-fbd39614-6b15-4629-8409-27608193409a.png)
   <summary> <지면을 수직으로 바라보게 함> </summary>
+  
+  
 </details>
   
  <details>
@@ -49,12 +52,15 @@
    
     ![image](https://user-images.githubusercontent.com/95459741/236625188-d5d1ca8d-14af-4c1b-8eeb-bccf3c209ce4.png)
    
+   
     <summary> <지면 수직 + 자체 높이 증가> </summary>
 </details>
 
  <details>
   <summary>로봇 ver3</summary>
     ![image](https://user-images.githubusercontent.com/95459741/236625410-4df6a50f-99f4-4bf0-9613-bcc0d5feaf17.png)
+    
+    
   <summary> < qr코드크기 최적화에 따른 자체 높이 다시 감소> </summary>
 </details>
 
