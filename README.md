@@ -37,7 +37,9 @@
   
  <details>
   <summary>로봇 ver2</summary>
+   
     ![image](https://user-images.githubusercontent.com/95459741/236625188-d5d1ca8d-14af-4c1b-8eeb-bccf3c209ce4.png)
+   
     <summary> <지면 수직 + 자체 높이 증가> </summary>
 </details>
 
