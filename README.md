@@ -43,19 +43,18 @@
  
 # 4. 로봇 version 업데이트
  <details>
-  <summary>로봇 ver1</summary>
+      <summary>로봇 ver1</summary>
   
-    ![image](https://user-images.githubusercontent.com/95459741/236625165-fbd39614-6b15-4629-8409-27608193409a.png)
-  
-  
+![image01](https://user-images.githubusercontent.com/95459741/236626518-09afd51c-1f75-41ad-afcd-5a1949b58f33.jpg)
+
+
   <summary> <지면을 수직으로 바라보게 함> </summary>
   
-</details>
-  
- <details>
+  </details>
+<details>
   <summary>로봇 ver2</summary>
    
-    ![image](https://user-images.githubusercontent.com/95459741/236625188-d5d1ca8d-14af-4c1b-8eeb-bccf3c209ce4.png)
+![image](https://user-images.githubusercontent.com/95459741/236625188-d5d1ca8d-14af-4c1b-8eeb-bccf3c209ce4.png)
    
    
     <summary> <지면 수직 + 자체 높이 증가> </summary>
