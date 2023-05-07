@@ -1,21 +1,23 @@
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhttps%2F%2Fgithub.com%2Fsoftwareyong%2FCapstone-Design%2Fhit-counter&count_bg=%23C83D8F&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/softwareyong/Capstone-Design)
+
 # Capstone-Design
-### qr tag를 이용하여 로봇이 좌표를 서버로 전달하며
+> qr tag를 이용하여 로봇이 좌표를 서버로 전달하며
 
-
-### 서버가 다음 목적지를 주며 최종목적지로 배달을 진행하는 서비스
+> 서버가 다음 목적지를 주며 최종목적지로 배달을 진행하는 서비스
 
 ## 🕰️개발 기간 
 > 2023.03.02 ~ 2023.06(~ing) 전자공학과 캡스톤 프로젝트
 
-# 🧑‍🤝‍🧑 조원 소개
->  이용우(팀장), 박현수, 홍성호, 김지욱
+## 🧑‍🤝‍🧑 조원 소개
+>  이용우(PL), 박현수, 홍성호, 김지욱
 
 ### ⚙️ 개발 환경
 - `python 3.8.x`
 -  rasberry pi: v1.7.3
 - **IDE** : vs code
 - **Framework** : flask
-
+- **tools** : VNC Viewer, xftp7, xshell7
+- 
 # 2. 배경 및 목적
 * 현대의 물류센터는 처리해야 하는 물류량이 정말 많아서 직원이 정말 많이 필요합니다.
 물류센터의 비정규직은 거의 95%에 육박합니다.
