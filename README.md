@@ -77,7 +77,10 @@
 
  <details>
   <summary>로봇 ver4</summary>
-
+   
+![ver4](https://github.com/softwareyong/Capstone-Design/assets/95459741/f71f0d75-0248-4d09-9f5b-84672fbe3785)
+   
+   <summary> <무게최소화, 무게중심 앞으로 변경> </summary>
 </details>
   
 # System flow
