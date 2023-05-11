@@ -1,62 +1,89 @@
-/github/pipenv/locked/python-version/:user/:repo
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhttps%2F%2Fgithub.com%2Fsoftwareyong%2FCapstone-Design%2Fhit-counter&count_bg=%23C83D8F&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/softwareyong/Capstone-Design)
 
-훌륭한 작가는 자신의 생각뿐만 아니라 친구들의 생각까지 마음에 품고 있다.
+# Capstone-Design
+> qr tag를 이용하여 로봇이 좌표를 서버로 전달하며
 
-# 리드미 잘 쓰는 법
-목차 (선택) ==> 주제가 길어지면 쓰기
+> 서버가 다음 목적지를 주며 최종목적지로 배달을 진행하는 서비스
 
-프로젝트의 무엇을, 왜, 어떻게에 대해서 답해야 한다는 점입니다.
-가이드라인
-1. 동기가 무엇이었나요? ==> 물류센터직원의 죽음(과로, 위험한장비), 시간단축(업무효율), 비용(cost)절감
-2. 왜 이 프로젝트를 기획했나요? ==> 효율적인 업무를 위해 
-3. 이 프로젝트를 통해 어떤 문제를 해결하나요? ==> 비용절감, 시간단축
-4. 이 프로젝트의 특징은 무엇인가요? 
+## 🕰️개발 기간 
+> 2023.03.02 ~ 2023.06(~ing) 전자공학과 캡스톤 프로젝트
 
-# 웹 표현: route()메소드 사용
-# lec_07 flask를 활용한센서제어1 5 페이지
+## 🧑‍🤝‍🧑 조원 소개
+>  이용우(PL), 박현수, 홍성호, 김지욱
 
-@app@.route('/')
+### ⚙️ 개발 환경
+- `python 3.8.x`
+-  rasberry pi: v1.7.3
+- **IDE** : vs code
+- **Framework** : flask
+- **tools** : VNC Viewer, xftp7, xshell7
+- 모스키토버전, 최종로봇, 최종맵, 모니터링서비스화면, 코드update, 추가해야함
 
-def hello():
-return 'Hello world'
-맨 앞에 @가 붙는 것은 decorator(장식자)를 나타낸다.
-flask에서는 이러한 장식자가 URL연결에 활용된다.
-decorator를 사용하면 다음 행의 함수부터 장식자 적용.
+# 2. 배경 및 목적
+* 현시대의 물류센터는 상당량의 물류량을 처리해야 하기 때문에 다수의 직원이 필요합니다.
 
-route장식자는 장식된 함수에서 결과를 반환할 때까지 
-기다리다가 결과가 반환되면 그 결과를 대기중인 웹 브라우저로 반환한다.
+물류센터의 비정규직은 거의 95%에 육박합니다.
+그에 비해 물류센터는 냉난방시스템 등 근무환경이 매우 열약합니다.
+그에 따라 미흡한 근무환경과 관리되지않는 업무로 과로사, 감전사고등 안타깝게도
+최근까지 사고가 일어나고 있는게 현실입니다.
+그래서 현대의 선진국 물류센터들과 쿠팡등 자동화시스템을 구축하여 이런 문제를 해결합니다.
+이에 일부분을 재현하고 물류서비스의 생산성 및 안정성을 개선해보는데 목표를 둔다.
+![image](https://user-images.githubusercontent.com/95459741/236624434-f6356f26-a575-499d-a50c-e1e812bc2a3d.png)
 
-코드를 파이썬에서 실행하고, 인터넷창에 127.0.0.1:5000
-치면 사이트로 접속이 된다.
 
-해당 주소는 127.0.0.1:5000/ 으로 맨 뒤에 route에서 설정했던 / 가 붙는 주소를 나타낸다.
+# 3. 주요 서비스 화면
+> 토글 클릭하시면 이미지 확인이 가능합니다.
+<details>
+  <summary>실제 map</summary>
+  
+![KakaoTalk_20230506_214425609](https://user-images.githubusercontent.com/95459741/236626064-6fc66a95-2664-4801-8a64-a7615631d049.jpg)
+![KakaoTalk_20230509_133254155_01](https://github.com/softwareyong/Capstone-Design/assets/95459741/888d6efd-03c5-4a33-8a0c-b56d77245958)
 
-만약 / 뒤에 다른 내용을 적으면 해당 내용은 route에서 설정을 하지 않았기 때문에 Not Found에러가 난다.
 
-# 127.0.0.1과 5000 의미
-현재 우리는 고유IP를 할당받아 인터넷이 연결된 컴퓨터에 시험하고 있다.
-고유 IP가 있음에도 플라스크는 이 IP를 사용하지 않고, localhost라 알려진 인터넷의 루프백 주소(127.0.0.1)를 사용합니다.
+</details>
 
-localhost:5000 / 127.0.0.1:5000
+<details>
+  <summary>최종 로봇</summary>
+  
+ </details>
+ 
+# 4. 로봇 version 업데이트
+ <details>
+      <summary>로봇 ver1</summary>
+  
+![image01](https://user-images.githubusercontent.com/95459741/236626518-09afd51c-1f75-41ad-afcd-5a1949b58f33.jpg)
 
-두 가지 표현 모두 'IP와 관계없이 내 컴퓨터를 지목'할 수 있는 방법입니다. 웹 브라우저에서 플라스크 웹 서버와 상호동작하려면 웹앱이 실행중인 주소(127.0.0.1)를 지정해야 합니다.
-127.0.0.1은 이런 목적으로 예약된 주소입니다.
 
-# URL의 :5000부분은 웹 서버가 실행 중인 프로토콜 포트 번호입니다. 
-보통 웹서버는 인터넷 표준인 프로토콜 포트 80에서 실행되며 포준 포트는 따로 지정 할 필요가 없습니다.
+  <summary> <지면을 수직으로 바라보게 함> </summary>
+  
+  </details>
+<details>
+  <summary>로봇 ver2</summary>
+   
+![image](https://user-images.githubusercontent.com/95459741/236625188-d5d1ca8d-14af-4c1b-8eeb-bccf3c209ce4.png)
+   
+  <summary> 지면 수직 + 자체 높이 증가</summary>
+      
+</details>
 
-예를 들어 여러분 브라우저에  softyong.tistory.com:80 을 입력해도 소프트용티스토리 홈페이지에 접속할 수 있습니다.
-다만 포트번호를 입력하지 않아도 되기에 입력하지 않는다.
+ <details>
+  <summary>로봇 ver3</summary>
+   
+![KakaoTalk_20230506_215340564](https://user-images.githubusercontent.com/95459741/236626614-c25c9d8e-71f9-45dc-8ec8-5f367f826174.jpg)
+    
+    
+  <summary> < qr코드크기 최적화에 따른 자체 높이 다시 감소> </summary>
+    
+</details>
 
-보통 포트 80은 제품 서버에 사용하므로 웹앱을 개발하는 동안에는 80번 포트를 사용하지 않는 것이 관례며 대부분의 웹 프레임위크는 실행할 포트를 지정하는 기능을 제공.
-8080포트가 개발 시 자주 사용하는 포트 중 하나입니다.
-# 플라스크는 테스트 프로토콜 포트로 5000번을 사용 
-# 필요하다면 app.run()을 실행할 때 원하는 포트값을 지정할 수 있습니다.
-
-# Flask 라우팅
-flask에서 url을 처리하는 방법으로 URL 디스패치라고 함.
-사용자가 입력한 URL을 분석하여 올바른 길로 안내(routing)해주는 역할을 함.
-
-flask에서 가장 간단한 routing방법은 route데코레이터를 사용하는 것
-- 데코레이터를 통해 "뷰 함수"의 동작을 다른 형태로 수정하여 올바른 길로 안내(routing)해 줌.
+ <details>
+  <summary>로봇 ver4</summary>
+   
+![ver4](https://github.com/softwareyong/Capstone-Design/assets/95459741/f71f0d75-0248-4d09-9f5b-84672fbe3785)
+   
+   <summary> <무게최소화, 무게중심 앞으로 변경> </summary>
+</details>
+  
+# System flow
+![image](https://user-images.githubusercontent.com/95459741/236448976-7e4114fc-41d0-441c-ad70-0887a09ffd33.png)
 
