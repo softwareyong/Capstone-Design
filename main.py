@@ -281,8 +281,8 @@ Ab.forward()
 while(True):
     
     line_tracking(Ab, TR) # 1.라인 트레킹
-    # barcodeData = qr_detect() # 2.카메라
-    barcodeData = 1 
+    barcodeData = qr_detect() # 2.카메라
+     
     if barcodeData == 1:
         pass
     else:
@@ -290,7 +290,7 @@ while(True):
         print("barcode: ", barcodeData, "pre_status: ", pre_status) # (2, 2)
         print("barcode detect !!!")
         device_to_server_matrix(barcodeData) # 3.서버로 좌표 보내기 
-        # qr_detect_after_process(Ab) # 4.qr탐지 후 후보정        
+        qr_detect_after_process(Ab) # 4.qr탐지 후 후보정        
         start_mqtt_client() # 5.mqtt 메시지 receive mode 
         next_hop_mapping(Ab) # 6.next dest mapping
         spin_after_process(Ab) # 7.스핀 후 후보정
