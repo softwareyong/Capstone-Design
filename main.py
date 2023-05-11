@@ -22,6 +22,7 @@ BUZ = 4
 Button = 7
 FINAL_DEST = 1
 
+
 # while (GPIO.input(Button) != 0):
    
 # GPIO init 
