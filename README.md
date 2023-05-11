@@ -37,6 +37,7 @@
   <summary>실제 map</summary>
   
 ![KakaoTalk_20230506_214425609](https://user-images.githubusercontent.com/95459741/236626064-6fc66a95-2664-4801-8a64-a7615631d049.jpg)
+![KakaoTalk_20230509_133254155_01](https://github.com/softwareyong/Capstone-Design/assets/95459741/888d6efd-03c5-4a33-8a0c-b56d77245958)
 
 
 </details>
