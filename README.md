@@ -88,13 +88,15 @@
   <summary>로봇 ver5</summary>
   
   ![noname01](https://github.com/softwareyong/Capstone-Design/assets/95459741/18ae7bf0-987f-49de-8af1-0c0e68caf8aa)
-  ![KakaoTalk_20230522_224626026](https://github.com/softwareyong/Capstone-Design/assets/95459741/ead60c42-5a8c-468b-b610-2118c7671e05)
+![KakaoTalk_20230522_224626026](https://github.com/softwareyong/Capstone-Design/assets/95459741/3a35bcac-b3e4-4e83-9441-660492479add)
+
 
    <summary> 3D CAD로 카메라 거치대 자제 제작</summary>
 </details>
     
  <details>
   <summary>로봇 ver6_최종</summary>
+    
   ![KakaoTalk_20230522_225032655](https://github.com/softwareyong/Capstone-Design/assets/95459741/fd623ffd-6d5e-4a19-be40-e08759604e61)
 
    <summary> 택배 운반장치 추가 </summary>
