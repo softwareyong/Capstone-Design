@@ -95,7 +95,7 @@
     
  <details>
   <summary>로봇 ver6_최종</summary>
-  
+  ![KakaoTalk_20230522_225032655](https://github.com/softwareyong/Capstone-Design/assets/95459741/fd623ffd-6d5e-4a19-be40-e08759604e61)
 
    <summary> 택배 운반장치 추가 </summary>
 </details>
