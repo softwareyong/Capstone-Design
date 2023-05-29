@@ -53,7 +53,7 @@
  <details>
   <summary>실시간 모니터링 서비스</summary>
    
-![KakaoTalk_20230528_152242536](https://github.com/softwareyong/Capstone-Design/assets/95459741/8eee6932-4bfd-4b8e-9e93-adef72a8fd66)
+![KakaoTalk_20230528_152242536](https://github.com/softwareyong/Capstone-Design/assets/95459741/354dd92c-c3b6-4313-a636-3d7c0692a71e)
 ![KakaoTalk_20230528_153219849](https://github.com/softwareyong/Capstone-Design/assets/95459741/3b853ea6-0a82-4c6f-801e-22cc0da8c761)
 
  </details>
