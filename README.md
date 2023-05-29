@@ -52,7 +52,9 @@
  
  <details>
   <summary>실시간 모니터링 서비스</summary>
-  
+  ![KakaoTalk_20230528_152242536](https://github.com/softwareyong/Capstone-Design/assets/95459741/8eee6932-4bfd-4b8e-9e93-adef72a8fd66)
+![KakaoTalk_20230528_153219849](https://github.com/softwareyong/Capstone-Design/assets/95459741/3b853ea6-0a82-4c6f-801e-22cc0da8c761)
+
  </details>
  
 # 4. 로봇 version 업데이트
