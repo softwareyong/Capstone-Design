@@ -53,8 +53,7 @@
  <details>
   <summary>실시간 모니터링 서비스</summary>
    
-![KakaoTalk_20230528_152242536](https://github.com/softwareyong/Capstone-Design/assets/95459741/354dd92c-c3b6-4313-a636-3d7c0692a71e)
-![KakaoTalk_20230528_153219849](https://github.com/softwareyong/Capstone-Design/assets/95459741/3b853ea6-0a82-4c6f-801e-22cc0da8c761)
+![실시간모니터링서비스사진](https://github.com/softwareyong/Capstone-Design/assets/95459741/fa6c4f90-9231-4bde-abf2-f24c9709d64e)
 
  </details>
  
@@ -119,3 +118,7 @@
 
 # FlowChart
 ![image](https://github.com/softwareyong/Capstone-Design/assets/95459741/cf357f1e-08bd-4f49-ae4b-96d2b63227e3)
+    
+# status flow
+![status](https://github.com/softwareyong/Capstone-Design/assets/95459741/586cb220-3aae-402f-a519-2c33ef6c5333)
+
