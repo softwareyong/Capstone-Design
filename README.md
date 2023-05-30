@@ -120,5 +120,4 @@
 ![image](https://github.com/softwareyong/Capstone-Design/assets/95459741/cf357f1e-08bd-4f49-ae4b-96d2b63227e3)
     
 # status flow
-![status](https://github.com/softwareyong/Capstone-Design/assets/95459741/586cb220-3aae-402f-a519-2c33ef6c5333)
-
+![status](https://github.com/softwareyong/Capstone-Design/assets/95459741/9385f6df-a07a-4e3c-b733-01e60553ee0e)
