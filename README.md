@@ -17,7 +17,7 @@
 - **IDE** : vs code
 - **Framework** : flask
 - **tools** : VNC Viewer, xftp7, xshell7
-- 모스키토버전, 최종로봇, 최종맵, 모니터링서비스화면, 코드update, 추가해야함
+- **protocol** : MQTT(Msg broker=> Mosquitto)
 
 # 2. 배경 및 목적
 * 현시대의 물류센터는 상당량의 물류량을 처리해야 하기 때문에 다수의 직원이 필요합니다.
@@ -31,8 +31,8 @@
 ![image](https://user-images.githubusercontent.com/95459741/236624434-f6356f26-a575-499d-a50c-e1e812bc2a3d.png)
 
 # 주요기능
-ㅁ 통신
-ㅁ 이미지 프로세싱
+ㅁ 관리자가 로봇들의 현재 좌표를 볼 수 있는 실시간 모니터링 서비스 
+ㅁ 로봇이 충돌없이 목적지로 이동하여 택배를 배송하는 서비스
 
 # 3. 주요 서비스 화면
 > 토글 클릭하시면 이미지 확인이 가능합니다.
