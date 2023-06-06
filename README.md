@@ -47,7 +47,9 @@
 
 <details>
   <summary>최종 로봇</summary>
-  
+   
+  ![최종로봇](https://github.com/softwareyong/Capstone-Design/assets/95459741/da87bf89-eb2b-42af-a5d4-c00c526c2c35)
+   
  </details>
  
  <details>
