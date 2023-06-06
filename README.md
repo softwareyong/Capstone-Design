@@ -37,16 +37,14 @@
 # 3. 주요 서비스 화면
 > 토글 클릭하시면 이미지 확인이 가능합니다.
 <details>
-   <summary>실제 map</summary>
+   <summary>Map</summary>
   
-![KakaoTalk_20230506_214425609](https://user-images.githubusercontent.com/95459741/236626064-6fc66a95-2664-4801-8a64-a7615631d049.jpg)
-![KakaoTalk_20230509_133254155_01](https://github.com/softwareyong/Capstone-Design/assets/95459741/888d6efd-03c5-4a33-8a0c-b56d77245958)
-
+![최종맵](https://github.com/softwareyong/Capstone-Design/assets/95459741/0cc838c1-d4f6-437d-8cde-e887dd83ef79)
 
 </details>
 
 <details>
-  <summary>최종 로봇</summary>
+  <summary>Robot</summary>
    
   ![최종로봇](https://github.com/softwareyong/Capstone-Design/assets/95459741/da87bf89-eb2b-42af-a5d4-c00c526c2c35)
    
@@ -59,7 +57,7 @@
 
  </details>
  
-# 4. 로봇 version 업데이트
+# 4. Robot Ver.
  <details>
       <summary>로봇 ver1</summary>
   
