@@ -1,0 +1,182 @@
+<html>
+    <head>
+        <title>home page</title>
+        <!-- 사용할 css 파일 -->
+        <link rel="stylesheet" href="{{url_for('static',filename='main.css')}}">
+        <meta http-equiv="refresh" content="3">
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+                <!-- 새로고침 -->
+                 <a href="/"> <h1>index page</h1></a>
+           </nav>
+        </div>
+
+        <!-- html에서 값을 입력 받을 수 있도록 하는 코드 -->
+        <form method="POST">
+            <!-- x y따로 입력받았을 경우 연산 -->
+            <div>
+                <label for=" "></label> <!-- 값을 입력할 수 있도록 하는 라벨 생성 -->
+                <label type="number" name="mtx_x1" id="mtx_x1" value="{{request.form['mtx_x1'] if 'mtx_x1' in request.form else ''}}"> <!-- 텍스트 형식으로 입력을 받아 mtx_x에 저장. -->
+                <label type="number" name="mtx_y1" id="mtx_y1" value="{{request.form['mtx_y1'] if 'mtx_y1' in request.form else ''}}"> <!-- 텍스트 형식으로 입력을 받아 mtx_y에 저장. -->
+            </div>
+
+            <div>
+                <label for=" "></label> <!-- 값을 입력할 수 있도록 하는 라벨 생성 -->
+                <label type="number" name="mtx_x2" id="mtx_x2" value="{{request.form['mtx_x2'] if 'mtx_x2' in request.form else ''}}"> <!-- 텍스트 형식으로 입력을 받아 mtx_x에 저장. -->
+                <label type="number" name="mtx_y2" id="mtx_y2" value="{{request.form['mtx_y2'] if 'mtx_y2' in request.form else ''}}"> <!-- 텍스트 형식으로 입력을 받아 mtx_y에 저장. -->
+            </div>
+
+
+
+            <!-- x,y로 입력받았을 경우 연산 -->
+            <!-- <label for="mtx">alpha bot1 좌표 입력:</label>
+            <input type="text" name="mtx">
+            <input type="submit" value="전송"> -->
+        </form>
+
+        <canvas id="myCanvas"></canvas> <!-- 좌표와 바둑판 그리기 위한 캔버스를 html로 불러오기 -->
+
+        <script>
+            // 입력된 bot의 x좌표 값 읽어오기
+            var off_x1 = document.getElementById("mtx_x1").value; 
+            var off_x2 = document.getElementById("mtx_x2").value;
+
+            // bot의 좌표값이 0인 경우 집으로 돌아온 것으로 간주하고 off 문구 출력
+            
+            // // x,y 같이 입력 받은 경우 연산
+            // let mtx = "{{ info1['mtx'] }}"; // 진자를 통해 읽어온 json 데이터에서 mtx 확인
+            // let spt = mtx.split(","); // mtx를 "," 기준으로 나눠서 저장
+            // let in_x1 = parseInt(spt[0]); // x 축 입력 값
+            // let in_y1 = parseInt(spt[1]); // y 축 입력 값
+
+            const canvas = document.getElementById('myCanvas'); // js로 바둑판과 좌표를 그릴 캔버스 선언
+            const ctx = canvas.getContext('2d'); // 캔버스 2차원으로 선언
+
+            // 캔버스 초기화
+            // ctx.clearRect(0, 0, canvas.width, canvas.height); 
+
+            // 그리기 속성 설정
+            ctx.lineWidth = 2; // 라인 굵기
+            ctx.strokeStyle = 'black'; // 라인 색깔
+            // 세로선 그리기
+            ctx.beginPath();
+            ctx.moveTo(31, 10); // 처음좌표
+            ctx.lineTo(31, 112); // 끝좌표
+            ctx.stroke(); // 처음좌표부터 끝 좌표까지 연결
+
+            // 세로선 그리기
+            ctx.beginPath();
+            ctx.moveTo(65, 10);
+            ctx.lineTo(65, 112);
+            ctx.stroke();
+
+            // 세로선 그리기
+            ctx.beginPath();
+            ctx.moveTo(99, 10);
+            ctx.lineTo(99, 112);
+            ctx.stroke();
+
+            // 세로선 그리기
+            ctx.beginPath();
+            ctx.moveTo(133, 10);
+            ctx.lineTo(133, 112);
+            ctx.stroke();
+
+            // 세로선 그리기
+            ctx.beginPath();
+            ctx.moveTo(167, 10);
+            ctx.lineTo(167, 112);
+            ctx.stroke();
+
+            // 세로선 그리기
+            ctx.beginPath();
+            ctx.moveTo(201, 10);
+            ctx.lineTo(201, 112);
+            ctx.stroke();
+
+            // 가로선 그리기
+            ctx.beginPath();
+            ctx.moveTo(30, 10);
+            ctx.lineTo(202, 10);
+            ctx.stroke();
+
+            // 가로선 그리기
+            ctx.beginPath();
+            ctx.moveTo(30, 44);
+            ctx.lineTo(201, 44);
+            ctx.stroke();
+
+            // 가로선 그리기
+            ctx.beginPath();
+            ctx.moveTo(30, 78);
+            ctx.lineTo(201, 78);
+            ctx.stroke();
+
+            // 가로선 그리기
+            ctx.beginPath();
+            ctx.moveTo(30, 112);
+            ctx.lineTo(202, 112);
+            ctx.stroke();
+
+            setInterval(() => {
+                // x y 따로 입력 받은 경우 연산
+                let in_x1 = "{{ info1['mtx_y']}}";
+                let in_y1 = "{{ info1['mtx_x']}}";
+                let in_x2 = "{{ info2['mtx_y']}}";
+                let in_y2 = "{{ info2['mtx_x']}}";
+
+                var x1 = document.getElementById("mtx_x1").value; // input 태그의 value 값 읽어오기
+                var y1 = document.getElementById("mtx_y1").value; // input 태그의 value 값 읽어오기
+                var x2 = document.getElementById("mtx_x2").value; // input 태그의 value 값 읽어오기
+                var y2 = document.getElementById("mtx_y2").value; // input 태그의 value 값 읽어오기
+
+                // 원 위치 설정
+                let cr_x1 = 201-(in_x1*34); // 좌우 간격 == 34, 입력 받은 칸에 초기 위치 값인 31을 더해 해당 좌표로 이동
+                let cr_y1 = 112-((in_y1-1)*34); // 상하 간격 == 34, 입력 받은 칸에 초기 위치 값인 10을 더해 해당 좌표로 이동
+                let cr_x2 = 201-(in_x2*34); // 좌우 간격 == 34, 입력 받은 칸에 초기 위치 값인 31을 더해 해당 좌표로 이동
+                let cr_y2 = 112-((in_y2-1)*34); // 상하 간격 == 34, 입력 받은 칸에 초기 위치 값인 10을 더해 해당 좌표로 이동
+
+                
+                // x,y 모두 입력 값이 있을 경우에만 fill을 실행
+                // ctx.arc : 원 그리기(x좌표, y좌표, 원 크기, 원그리기를 시작하는 위치, 원그리기를 멈추는 위치, false가 delfalt)
+                if (x1 != "") { 
+                    if (y1 != "") {
+                        ctx.beginPath();
+                        ctx.arc(cr_x1, cr_y1, 3, 0, 2*Math.PI, false);
+                        ctx.fillStyle = "red"; 
+                        ctx.fill(); // 원 그리기
+                    }
+                }
+                if (x2 != "") { 
+                    if (y2 != "") {
+                        ctx.beginPath();
+                        ctx.arc(cr_x2, cr_y2, 3, 0, 2*Math.PI, false);
+                        ctx.fillStyle = "blue"; 
+                        ctx.fill(); // 원 그리기
+                    }
+                }
+                }, 100); // 100ms 마다 업데이트
+    </script>
+            <script type="text/javascript">
+ 
+                function updateHTML() {
+                  // AJAX 요청 생성
+                  var xhr = new XMLHttpRequest();
+                  xhr.onreadystatechange = function() {
+                    if (xhr.readyState === XMLHttpRequest.DONE) {
+                      if (xhr.status === 200) {
+                        // 요청이 성공한 경우 index.html을 업데이트
+                        document.getElementById('content').innerHTML = xhr.responseText;
+                      }
+                    }
+                  };
+                  xhr.open('GET', '/update_html');  // 서버로 HTML 업데이트 요청을 보내는 URL을 지정
+                  xhr.send();
+                }
+            setInterval(updateHTML, 5000);  // 5초마다 업데이트 수행
+            </script>
+
+    </body>
+</html>.
