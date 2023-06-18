@@ -102,7 +102,7 @@
 ![KakaoTalk_20230522_224626026](https://github.com/softwareyong/Capstone-Design/assets/95459741/3a35bcac-b3e4-4e83-9441-660492479add)
 
 
-   <summary> 3D CAD로 카메라 거치대 자제 제작</summary>
+   <summary> 3D CAD로 카메라 거치대 자제 제작 </summary>
 </details>
     
  <details>
